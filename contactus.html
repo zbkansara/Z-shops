@@ -6,7 +6,78 @@
     <title>contact-us</title>
     <link rel="stylesheet" href="contactus.css">
 </head>
+<style>
+  /* its for only navbar */
+    header{
+    background-color:black;
+    font-family: 'Lato', sans-serif;
+}
+/* .logo{
+    /* display: flex; */
+    /* align-items: center; */
+/* }  */
+  .logo img{
+    padding:0 12px ;
+}
+nav ul{
+    height: 58px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    padding: 0 23px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+
+nav ul li a:hover{
+    color: rgb(187, 202, 235);
+    font-weight: initial;
+}
+
+.search{
+    /* display: flex; */
+    align-items: center;
+    border: 10px solid black;
+    
+}
+.search input{
+    height: 27px;
+    width: 493px;
+  border-radius: 5px;
+  margin: 0 15px 0 56px;
+  
+}
+</style>
 <body>
+  <header>
+    <nav>
+        <ul>
+            <div class="logo">
+                <img src="images/2.png" alt="" width="130vw" height="50vh" padding:0 12px;>
+            </div>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contactus.html">Contact</a></li>
+
+            <div class="search">
+                <input type="text" width="499px" placeholder="Search Here">
+            </div>
+            <button>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-search" viewBox="0 0 16 16">
+                    <path
+                        d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                </svg>
+            </button>
+        </ul>
+    </nav>
+</header>
     <div class="container">  
         <form id="contact" action="" method="post">
           <h3>Z-shop Contact Form</h3>
